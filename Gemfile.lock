@@ -1,8 +1,9 @@
 GIT
   remote: git://github.com/renatodex/gamejam-roulette.git
-  revision: a39738015874afe81074fdd0962229dd31b269c9
+  revision: 7e6a8bbe2da95c50d7a713f18fd4b95eebb9c0e7
+  tag: 1.6
   specs:
-    gamejam-roulette (1.4.0)
+    gamejam-roulette (1.5.0)
 
 GEM
   remote: https://rubygems.org/

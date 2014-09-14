@@ -1,5 +1,6 @@
 class HomeScreen < PM::Screen
   title "Home"
+	include ::Gamejam
 
   def on_appear		
 		rmq.stylesheet = HomeStylesheet

@@ -5,6 +5,8 @@ require "rubygems"
 require 'bundler'
 Bundler.require
 
+require 'gamejam-roulette'
+
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
   app.name = 'challenge-of-three-app'

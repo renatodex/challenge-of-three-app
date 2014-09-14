@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "rake"
 
-gem "gamejam-roulette", :git => "git://github.com/renatodex/gamejam-roulette.git"
+gem 'gamejam-roulette', :git => 'git://github.com/renatodex/gamejam-roulette.git', :tag => '1.6'
 
 # ProMotion
 gem "ProMotion", "~> 2.0"
