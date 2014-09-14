@@ -1,0 +1,26 @@
+GIT
+  remote: git://github.com/renatodex/gamejam-roulette.git
+  revision: a39738015874afe81074fdd0962229dd31b269c9
+  specs:
+    gamejam-roulette (1.4.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ProMotion (2.0.1)
+      methadone (~> 1.4)
+    methadone (1.7.0)
+      bundler
+    rake (10.3.2)
+    ruby_motion_query (0.7.1)
+    sugarcube (1.7.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ProMotion (~> 2.0)
+  gamejam-roulette!
+  rake
+  ruby_motion_query (~> 0.6)
+  sugarcube (~> 1.6)
