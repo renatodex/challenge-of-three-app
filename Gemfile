@@ -2,7 +2,8 @@ source "https://rubygems.org"
 
 gem "rake"
 
-gem 'gamejam-roulette', :git => 'git://github.com/renatodex/gamejam-roulette.git', :tag => '1.6'
+gem "gamejam-roulette", :path => "/Users/renatoalves/Sites/gamejam-roulette"
+#gem 'gamejam-roulette', :git => 'git://github.com/renatodex/gamejam-roulette.git', :tag => '1.7'
 
 # ProMotion
 gem "ProMotion", "~> 2.0"
@@ -10,7 +11,7 @@ gem "ProMotion", "~> 2.0"
 # gem "ProMotion-map", "~> 0.3"  # PM::MapScreen
 
 # Awesome gem that adds a ton of helpers.
-gem "sugarcube", "~> 1.6", require: ["sugarcube-color", "sugarcube-uikit"]
+#gem "sugarcube", "~> 1.6", require: ["sugarcube-color", "sugarcube-uikit"]
 
 # Layout and styling gem
 # gem "motion-kit", "~> 0.10"

@@ -1,9 +1,7 @@
-GIT
-  remote: git://github.com/renatodex/gamejam-roulette.git
-  revision: 7e6a8bbe2da95c50d7a713f18fd4b95eebb9c0e7
-  tag: 1.6
+PATH
+  remote: /Users/renatoalves/Sites/gamejam-roulette
   specs:
-    gamejam-roulette (1.5.0)
+    gamejam-roulette (1.8.0)
 
 GEM
   remote: https://rubygems.org/
@@ -14,7 +12,6 @@ GEM
       bundler
     rake (10.3.2)
     ruby_motion_query (0.7.1)
-    sugarcube (1.7.0)
 
 PLATFORMS
   ruby
@@ -24,4 +21,3 @@ DEPENDENCIES
   gamejam-roulette!
   rake
   ruby_motion_query (~> 0.6)
-  sugarcube (~> 1.6)
