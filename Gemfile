@@ -23,7 +23,7 @@ gem "ruby_motion_query", "~> 0.6"
 # gem "cdq", "~> 0.1"
 
 # Networking
-# gem "afmotion", "~> 2.1"
+gem "afmotion"
 
 # Screenshot acceptance comparison tool
 # gem "motion-juxtapose", "~> 0.1"

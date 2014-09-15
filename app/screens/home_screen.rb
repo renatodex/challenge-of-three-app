@@ -1,14 +1,10 @@
 class HomeScreen < PM::Screen
   title "Home"
 
-  def on_load
-    puts Gamejam::Roulette::Machine.new
-  end
-
   def on_appear
 
     rom = Gamejam::Rom.new
-    rom.name = "Ajuda"
+    rom.name = "Sobre"
 
 		rmq.stylesheet = HomeStylesheet
 		rmq(self.view).apply_style :root_view
